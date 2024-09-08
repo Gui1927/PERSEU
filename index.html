@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>PERSEU</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>No coração de uma cidade esquecida pelo tempo, um jovem encontra uma chave antiga enterrada no quintal de sua casa. Ao tocá-la, sombras dançam nas paredes e um eco distante murmura seu nome. O que aquela chave poderia abrir, e por que parecia destinada a ele?</p>
+            <button class="btn-proximo" data-proximo="1">Seguir os sons</button>
+            <button class="btn-proximo" data-proximo="2">Ignorar tudo isso</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>O jovem decide seguir os sons até o porão, de onde eles pareciam vir, o caminho de paredes velhas e mais sussurros se encerra em uma porta.</p>
+            <button class="btn-proximo" data-proximo="3">Abrir a porta</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e correr de la</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Ele decide ignorar os sons e apenas guarda a chave. Os dias se passam e sussuros o perseguem, antes de dormir, no banheiro, em todo momento.</p>
+            <button class="btn-proximo" data-proximo="5">Investigar os sons de uma vez</button>
+            <button class="btn-proximo" data-proximo="6">Jogar a chave fora</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Ele sente a chave vibrar em sua mão, ele abre a porta e...
+                A total esucridão de alguns segundos, é interrompida por uma luz fraca e tremulante, simbolos estranhos na parede, uma brisa fria e macabra, até que o jovem avista uma figura encapuzada, segurando uma lamparina, que parecia esperar por ele</p>
+            <button class="btn-proximo" data-proximo="7">Falar com a figura</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+           <img src="img/cenario-1.png" alt="">
+            <p>Ele fica assustado demais para continuar, sai correndo de la e promete nunca mais falar disso. (nunca saberemos o que tinha atrás da porta)</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>O jovem desce até o porão e abre uma porta velha que havia lá embaixo, onde encontra uma figura estranha, encapuzada e com uma lamparina nas mãos</p>
+            <button class="btn-proximo" data-proximo="7">Falar com a entidade</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>O jovem decide jogar a chave fora, ele pega sua caminhonete velha e viaja muito longe para fazer isso, quando uma tempestade de raios e trovões começa do nada</p>
+            <button class="btn-proximo" data-proximo="8">Voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7.png" alt="abrindo a porta e encontrando a figura">
+            <p>-”Esperavamos por você, Perseu...” 
+                Disse o velho encapuzado, antes que qualquer coisa fosse dita pelo jovem. 
+                -“ A chave que tem em suas mãos abre duas portas, a esquerda, a porta que o mostrará toda a verdade deste mundo, tudo o que nem imaginou saber, porem perigos, e testes a sua própria alma acompanharam pelo caminho, ou pode desistir e voltar lá para cima, e tudo isso aqui será apagado de sua mente, não lembrará de nada nunca mais...”</p>
+            <button class="btn-proximo" data-proximo="9">Abrir a porta da verdade</button>
+            <button class="btn-proximo" data-proximo="10">Voltar para casa</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta a casa, a tempestade da mesma forma que começou terminou, e os sussuros aumentaram ainda mais, até que ele resolve investigar os sons de uma vez por todas</p>
+            <button class="btn-proximo" data-proximo="7">Falar com a figura estranha</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao abrir a porta, Perseu entende tudo o que foi incerto em sua vida, o motivo de seu nome, nunca ter conhecido o pai, nunca poder sair de casa em trovoadas, tudo estava explicado...</p>
+            <button class="btn-proximo" data-proximo="11">O Olimpo</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Perseu confuso com tudo o que estava acontecendo, assustado, decide voltar para casa e tentar esquecer tudo aquilo, porém, a curiosidade lhe foi mais dominante</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e abrir a porta</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11.png" alt="Encontrando a verdadeira casa">
+            <p>A porta era um portal para o Olimpo, perseu era de verdade um Semideus, filho de Zeus, Perseu conhece seu pai e ganha de presente o raio de Zeus. Agora protege o mundo dos mortais, e faz visitas a seu pai frequentemente.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Ele retorna, porém, não havia mais ninguém lá, a penas a porta, entreaberta, ele decide ir até lá e entende tudo o que tinha se perguntado a vida inteira...</p>
+            <button class="btn-proximo" data-proximo="11">O Olimpo</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
